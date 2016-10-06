@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Draft Order</title>
+
+<link type="text/css" rel="stylesheet" href="css/draftapp.css" /
+
+</head>
+ 
+<body id="index" class="home">
+
+<div class="bodywrapper">
+	<header id="banner" class="header">
+		<h1>Draft order</h1>
+	</header><!-- /#banner -->	
+
+	<div class="formwrapper">
+		<h2>Please enter number of teams and number of position</h2>
+		<form name="counterForm" onsubmit="return false;">
+			<div class="fields">
+			Teams: <input type="text" id="teamNumber" value="" placeholder="Enter Teams number" />
+			Positions: <input type="text" id="positionNumber" value="" placeholder="Enter Positions" />
+			<button id="buttonCount">Submit</button>
+			</div>
+			<br />
+			<div class="fields">
+				Highlight Draft: <input type="text" id="positionHighlight" value="" placeholder="Highlight Positions" />
+				<button id="buttonHighlight">Highlight</button>
+			</div>
+		</form>
+	</div>
+
+	<form id="form1" onsubmit="return false;">
+		
+		<div class="displaywrapper">
+		
+			<div id="displayerror">
+			</div>
+			
+			<div id="displayarea">
+			</div>
+		</div>
+		
+	</form>
+
+</div>
+<script type='text/javascript' src='js/draftorder.js'></script>
+</body>
+</html>
+ 
